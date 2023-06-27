@@ -1,0 +1,53 @@
+---
+__default__:
+  time: "0-01:00"
+  threads: 1
+  mem: 2G
+  queue: "general"
+  error: "logs/%x_%j_%N.err"
+  output: "logs/%x_%j_%N.log"
+merge_fastq:
+  time: "0-03:00"
+  threads: 24
+  mem: 2G
+  queue: "general"
+cutadapt_bc:
+  time: "0-03:00"
+  threads: 24
+  mem: 2G
+  queue: "general"
+cutadapt_oligo:
+  time: "0-03:00"
+  threads: 24
+  mem: 2G
+  queue: "general"
+generate_design:
+  time: "0-01:00"
+  threads: 1
+  mem: 2G
+  queue: "general"
+map_oligos:
+  time: "0-2:00"
+  threads: 24
+  mem: 8G
+  queue: "general"
+join_sequences:
+  time: "0-02:00"
+  mem: 2G
+  queue: "general"
+barcode_map:
+  time: "0-01:00"
+  threads: 1
+  mem: 32G
+  queue: "general"
+map_dna_rna:
+  time: "0-01:00"
+  threads: 1
+  mem: 2G
+  queue: "general"
+compile_counts:
+  time: "0-02:00"
+  threads: 1
+  mem: 2G
+  queue: "general"
+

@@ -1,0 +1,4 @@
+experiment: "ENIGMA"
+input_dir: "/work/users/j/d/jdrosen/ENIGMA_data"
+design_file: "/work/users/j/d/jdrosen/ENIGMA_data/design/MPRA_enigma.txt"
+adapter_seq: TCTAGACCGTCACTAACTAACAGTGGGTACC
